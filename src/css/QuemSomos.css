@@ -1,0 +1,158 @@
+
+
+.apresentacao{
+    
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+    max-width: 1000px;
+}
+
+
+#foto{
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 200%;
+    border: solid 2px rgb(230, 64, 64);
+}
+
+.centralizar{
+    left: 50%;    
+}
+
+.logo{
+    position: fixed;
+    bottom: 30px;
+    left: 1250px;
+    border-radius: 50px;
+    width: 50px;
+    opacity: 0.6;
+}
+.proximacao{
+    text-align: center;
+}
+.divi{
+    background-color:#838382;
+    height: 100px;
+    font-size: 22px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.cabecalho2 {
+    background-color: rgb(240, 240, 240);
+    height: 70px;
+    
+
+}
+
+#cabecalho {
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+
+}
+
+li {
+    width: 100%;
+    float: left;
+    padding: 10px;
+    margin: 5px;
+    list-style-type: none;
+    font-size: 20px;  
+    
+}
+
+.edicao{
+    text-align: center;
+}
+.white{
+    color: black;
+}
+.white:hover{
+    color:red;
+    opacity: 0.7;
+}
+.estou{
+    color: red;
+}
+.footer{
+    text-align: center;
+    margin-top: 60px;
+    background-color: rgb(240, 240, 240);
+    
+    
+}
+.logorodape{
+    width: 170px;
+}
+.logorodape2{
+    width:45px;
+    margin-top: -3px;
+    border-radius: 50px;
+    margin-top: -10px;
+    
+}
+.textorodape{
+    margin-top: -5px;
+    font-size: 15px;
+}
+.title{
+    color: rgb(22, 21, 21); 
+    font-size: 35px;
+    max-width: 750px;
+    height: 300px;
+}
+.textocriador{
+    color: rgb(121, 121, 121);
+    font-size: 15px;
+}
+.tamanho{
+    width: 100px;
+    
+}
+@media screen and (max-width:1300px) {
+    .logo{
+    position: fixed;
+    bottom: 30px;
+    left: 90%;
+    border-radius: 50px;
+    width: 50px;
+    opacity: 0.6;
+    height: 40px;
+    }
+    .subtitulo{
+        margin-top: 0;
+
+    }
+}
+@media screen and (max-width:600px){
+      
+    .divi{
+    height: 122px;
+   }
+   .logo{
+    position: fixed;
+    bottom: 30px;
+    left: 87%;
+    border-radius: 50px;
+    width: 50px;
+    opacity: 0.6;
+    height: 40px;
+    }
+    
+}
