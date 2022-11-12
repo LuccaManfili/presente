@@ -1,6 +1,6 @@
 .cabecalho2 {
     background-color: rgb(240, 240, 240);
-    height: 100px;
+    height: 70px;
     
 
 }
@@ -181,7 +181,7 @@ div{
     @media screen and (max-width:600px){
       
         .container{
-        height: 500px;
+        height: 600px;
        }
        .logo{
         position: fixed;
