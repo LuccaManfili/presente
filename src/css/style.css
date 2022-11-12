@@ -202,4 +202,7 @@ li {
     .subtitulo{
         margin-top: 0;
     }
+    .center{
+    margin-top: -30px;
+    }
 }
